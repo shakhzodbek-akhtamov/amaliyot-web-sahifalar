@@ -1,0 +1,238 @@
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
+    nav,
+    section {
+        padding: 0 2.5rem;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0 3rem;
+        margin-top: 5rem;
+    }
+
+    .about-portfolio {
+        display: block;
+    }
+
+    .about-portfolio h1 {
+        font-weight: 700;
+        font-size: 2.75rem;
+        line-height: 40px;
+        margin: 3rem 0 1rem;
+    }
+
+    .about-portfolio p {
+        margin: 2.25rem 0;
+    }
+
+    .section-title {
+        margin: 0 3rem;
+    }
+
+    .post-cards {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 3rem;
+    }
+
+    .recent-posts {
+        background-color: #edf7fa;
+        padding: 2rem 0 3rem 0;
+    }
+
+    .featured-card {
+        display: flex;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 3rem 0 2rem;
+    }
+
+    .featured-card .card-img {
+        margin-right: 2rem;
+        width: 100%;
+    }
+
+    .future-title,
+    .featured-cards,
+    .blog-title,
+    .work-title {
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+
+    nav,
+    section {
+        padding: 0 2rem;
+    }
+    .about {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding: 0 3rem;
+        margin-top: 5rem;
+    }
+
+    .about-portfolio {
+        margin-right: 0;
+    }
+
+    .about-portfolio {
+        order: 2;
+    }
+
+    .hero-img {
+        order: 1;
+    }
+    .about-portfolio {
+        display: block;
+    }
+
+    .name,
+    .title,
+    .btn-cv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-portfolio {
+        display: block;
+    }
+
+    .about-portfolio h1 {
+        font-weight: 700;
+        font-size: 2.75rem;
+        line-height: 40px;
+        margin: 3rem 0 1rem;
+    }
+
+    .about-portfolio p {
+        margin: 2.25rem 0;
+    }
+
+    .section-title {
+        margin: 0 3rem;
+    }
+
+    .post-cards {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 3rem;
+    }
+
+    .recent-posts {
+        background-color: #edf7fa;
+        padding: 2rem 0 3rem 0;
+    }
+
+    .featured-card .card-img {
+        margin-right: 2rem;
+        width: 100%;
+    }
+
+    .featured-card {
+        display: block;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 3rem 0 2rem;
+    }
+    .future-title,
+    .featured-cards,
+    .blog-title,
+    .work-title {
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+
+    nav,
+    section {
+        padding: 0 1.5rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0 3rem;
+        margin-top: 5rem;
+    }
+
+    .about-portfolio {
+        margin-right: 0;
+        justify-self: center;
+    }
+
+    .about-portfolio {
+        order: 2;
+    }
+
+    .hero-img {
+        order: 1;
+    }
+    .about-portfolio {
+        display: block;
+    }
+
+    .about-portfolio h1 {
+        font-weight: 700;
+        font-size: 2.75rem;
+        line-height: 40px;
+        margin: 3rem 0 1rem;
+    }
+
+    .about-portfolio p {
+        margin: 1.25rem 0;
+    }
+
+    .section-title {
+        margin: 0 2rem;
+    }
+
+    .post-cards {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 2rem;
+    }
+
+    .card .card-about {
+        display: flex;
+        font-weight: 400;
+        font-size: 1.125rem;
+        align-items: center;
+        line-height: 26px;
+        text-transform: capitalize;
+        margin: 0;
+    }
+
+    .recent-posts {
+        background-color: #edf7fa;
+        padding: 1rem 0 2rem 0;
+    }
+
+    .featured-card {
+        display: block;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 2rem 0 1rem;
+    }
+    .future-title,
+    .featured-cards,
+    .blog-title,
+    .work-title {
+        margin: 0 2rem;
+    }
+}
